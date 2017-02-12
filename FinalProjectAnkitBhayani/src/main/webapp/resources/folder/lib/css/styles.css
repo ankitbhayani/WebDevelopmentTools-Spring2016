@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0; 
+	margin:0; 
+	border:0;
+}
+	
+body {
+    background: #d5d5d5;
+	font-family:trebuchet MS;
+	color:#6B6B6B;
+    border: 0 none;
+    margin: 0;
+	font-size:13px;
+    padding: 0;
+}
+	
+a {
+	font-family:trebuchet MS;
+	font-size:13px;
+	font-weight:normal;
+	text-decoration: none;
+    outline: medium none;
+	color:#000;}
+
+.center {
+	margin: 0 auto;
+	max-width: 970px;
+    min-width: 940px;
+    width: 950px;
+	overflow:visible;
+}
+
+	
+h3 {
+	color:#2f2f2f;
+	font-size:24px;
+	padding: 0 0 30px 0}
+
+html, body{height:100%}
+
+li {list-style:none;}
+
+body{
+	background: url("images/bg.png") repeat scroll 0 0 #f0ede6;
+}
+
+.log_hide {
+    background: url("images/log_hide_bg.png") repeat-x scroll left bottom transparent;
+    border: 1px solid #CBCAC8;
+    height: 6px;
+    left: 0;
+    padding-bottom: 7px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	z-index:10002;
+	border-left:0;
+}
+.log_hide_inner{
+    background-color: #121214;
+}
+.log_hide .center{
+    overflow: visible;
+    position: relative;
+	min-height:6px;}
+	
+.log {
+    background: url("images/log.png") no-repeat scroll 0 0 transparent;
+    bottom: -26px;
+    display: block;
+    height: 26px;
+    outline: medium none;
+    position: absolute;
+    right: 0;
+    width: 23px;}
+	
+.log_active {
+    background: url("images/log_close.png") no-repeat scroll 0 0 transparent;}
+	
+.login_container{
+    background: transparent;
+    display: none;
+    padding-left: 180px;
+	color:#8b8b8b;}
+	
+.login_container a{color:#8b8b8b;}
+
+.login-username, .login-password, .login-submit{float:left;height:auto;}
+
+.login-username span, .login-password span, .login-submit span{display:block}
+
+.login-username, .login-password {width:225px;}
+
+#loginform {
+    height: 115px;
+    overflow: hidden;
+    position: relative;
+    width: 635px;
+}
+
+.login-username{margin: 15px 20px 0 0;}
+
+.login_container input{
+	background: url("images/login_in.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+	height: 39px;
+	width: 221px !important;}
+	
+#user_login {
+    margin: 10px 0 8px;
+    padding: 0 5px; }
+	
+.login-remember {
+    left: 2px;
+    position: absolute;
+    top: 87px;
+}
+
+.login-remember input{
+	width:14px !important;
+	height:14px;
+	position:relative;
+	top:2px;
+}
+	
+#checkbox {
+	margin:0;
+	width:14px;
+	height:14px;}
+
+.login-password{margin: 15px 0 0;}
+	
+#user_pass {
+    margin: 10px 0 8px;
+    padding: 0 5px;}
+
+.login-submit{margin: 45px 0 0 19px;}
+	
+	#wp-submit {
+	background: url("images/read_more.png") no-repeat scroll 0 0 transparent;
+    color: #050505;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    height: 36px;
+    letter-spacing: -0.7px;
+    line-height: 35px;
+    text-align: center;
+	padding-bottom:3px;
+    width: 83px !important;}		
+	
+#wp-submit:hover {
+	background: url("images/read_more_hover.png") no-repeat scroll 0 0 transparent;}
+
+.clearboth, .clearb{
+    clear: both;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 0;
+    height: 30px;
+    line-height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.clearb{
+    height: 0px;
+}
+.log_ic {
+	background: url("images/us_log.png") no-repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    height: 31px;
+    margin: 44px 38px 0 0;
+    padding: 8px 0 0 35px;}

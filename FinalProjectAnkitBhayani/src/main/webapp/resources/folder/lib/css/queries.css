@@ -1,0 +1,134 @@
+@media screen and (min-width:920px) and (max-width: 1360px) {
+   .hamburger{display:none;}
+
+    li{
+	float:left;
+	}
+   
+	.link-list-item {
+		width: auto;
+		margin-left: .5%;
+		padding: .3% .3%;
+		color: black;
+		background-color: #BC8F8F;
+		list-style-type: none;
+		
+	}
+		
+	.link-list-item  a{
+		text-decoration:none;
+		display: inline-block;
+		color: white;
+		font: 15px calibri;
+		margin: 5px;
+		padding: 8px;
+	 }
+	 
+
+	.link-list-item:hover {
+		width: auto;
+		margin-left: .5%;
+		padding: .4% .4%;
+		display: inline-block;
+		color: white;
+		background-color: black;
+		-moz-box-shadow: 0 0 .1px #ccc; 
+		-webkit-box-shadow: 0 0 .1px #ccc; 
+		box-shadow: 0 0 .1px #ccc;
+	}
+
+}
+
+
+@media screen and (min-width:640px) and (max-width: 940px) {
+		.hamburger{display:none;}
+		
+		  li{
+	float:left;
+	}
+   
+
+		.link-list-item {
+		width: auto;
+		margin-left: .5%;
+		padding: .2% .2%;
+		display: inline-block;
+		color: white;
+		background-color: #BC8F8F;
+		list-style-type: none;
+		display: inline;
+		
+	}
+	
+	
+	.link-list-item  a{
+		text-decoration:none;
+		display: inline-block;
+		//border: 1px solid  red;
+		color: white;
+		font: 14px calibri;
+		margin: 2px;
+		padding: 7px;
+	 }
+	 
+
+	.link-list-item:hover {
+		width: auto;
+		margin-left: .5%;
+		padding: .5% .5%;
+		display: inline-block;
+		color: white;
+		background-color: black;
+		-moz-box-shadow: 0 0 .1px #ccc; 
+		-webkit-box-shadow: 0 0 .1px #ccc; 
+		box-shadow: 0 0 .1px #ccc;
+	}
+
+}
+
+
+@media screen and (min-width:620px) and (max-width: 640px) {
+	  .hamburger{display:none;}
+
+	    li{
+	float:left;
+	}
+   
+	  
+		.link-list-item {
+		width: auto;
+		margin-left: .1%;
+		padding: .1% .1%;
+		/*display: inline-block;*/
+		color: white;
+		background-color: #BC8F8F;
+		list-style-type: none;
+		display: inline;
+		
+	}
+	
+	
+	.link-list-item  a{
+		text-decoration:none;
+		display: inline-block;
+		//border: 1px solid  red;
+		color: white;
+		font: 13px calibri;
+		margin: 1px;
+		padding: 3px;
+	 }
+	 
+
+	.link-list-item:hover {
+		width: auto;
+		margin-left: .5%;
+		padding: .5% .5%;
+		display: inline-block;
+		color: white;
+		background-color: black;
+		-moz-box-shadow: 0 0 .1px #ccc; 
+		-webkit-box-shadow: 0 0 .1px #ccc; 
+		box-shadow: 0 0 .1px #ccc;
+	}
+
+}

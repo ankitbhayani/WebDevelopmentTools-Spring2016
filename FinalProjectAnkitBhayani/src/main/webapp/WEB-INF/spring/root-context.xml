@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- <bean id="homeController" class="com.northeastern.datefinder.controller.HomeController"></bean>-->
+	<!-- <bean id="userDao" class="com.northeastern.datefinder.dao.UserDAO"></bean> -->	
+	<bean id="userDao" class="com.northeastern.datefinder.dao.UserDAO"></bean>
+	<bean id="messageDao" class="com.northeastern.datefinder.dao.MessageDAO"></bean>
+	<bean id="contactDao" class="com.northeastern.datefinder.dao.ContactDAO"></bean>
+	<bean id="userDetailDao" class="com.northeastern.datefinder.dao.UserDetailDAO"></bean>
+	<bean id="userValidator" class="com.northeastern.datefinder.validator.UserValidator"></bean>
+</beans>
